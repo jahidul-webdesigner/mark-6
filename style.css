@@ -1,0 +1,372 @@
+body{
+    font-family: montserrat;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.section-header{
+    margin-bottom: 50px;
+}
+.section-header h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-header h2 span{
+    color: #6cae22;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar-nav{
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-light .navbar-brand{
+    color: #262626;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus{
+    color: #262626;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #262626;
+}
+.nav-link:hover{
+    color: #6cae22 !important;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+        /* image slider style area */
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.bg-1{
+    background-image: url(image/1.jpg);    
+}
+.bg-2{
+    background-image: url(image/2.jpg);
+}
+.bg-3{
+    background-image: url(image/3.jpg);
+}
+.bg-1, .bg-2, .bg-3{
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+    text-align: left;
+    left: 8%;
+    color: #262626;
+}
+.carousel-caption h5{
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    font-size: 18px;
+    width: 45%;
+    line-height: 1.9;
+}
+.carousel-caption .btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    background: #6cae22;
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.carousel-indicators{
+    bottom: 65px;
+}
+.carousel-indicators button{
+    width: 100px !important;
+}
+
+        /* About area style start  */
+
+.ab-img img{
+    width: 100%;
+}
+.about-text h4{
+    color: #6cae22;
+    font-size: 18px;
+}
+.about-text p{
+    color: #6b6b6b;
+    line-height: 1.8;
+}
+.about-text a{
+    background: #6cae22;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+        /* stats area style  */
+
+.stats{
+    background: #6cae22;
+    color: #fff;
+}
+.single-number i{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.single-number h2{
+    font-weight: 700;
+}
+
+        /* service area style  */
+
+.single-service{
+    padding: 30px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+.single-service i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #6cae22;
+}
+.single-service a{
+    background: #6cae22;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.single-service:hover{
+    background: #6cae22;
+    color: #fff;
+}
+.single-service:hover i{
+    color: #fff;
+}
+.single-service:hover a{
+    color: #6cae22;
+    background: #fff;
+}
+
+        /* testimonial area start  */
+
+.testimonial .section-header h2{
+    color: #fff;
+}
+.testimonial .section-header h2 span{
+    color: #fff;
+}
+.testimonial .section-header p{
+    color: #fff;
+}
+.testimonial{
+    background:#6cae22 ;
+}
+.testimonial .carousel-caption{
+    color: #fff;
+    bottom: 0;
+}
+.testimonial .carousel-item{
+    height: 30vh;
+}
+.testimonial .carousel-caption h5{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.testimonial blockquote{
+    margin-top: 15px;
+}
+.testi-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #fff;
+}
+.testi-img img{
+    width: 100%;
+}
+
+        /* trainer area style start  */
+.single-trainer{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+}
+.single-trainer .card-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.single-trainer .socials i{
+    margin: 0 15px;
+}
+
+        /* blog Area style start  */
+
+.single-blog .card a{
+    background: #6cae22;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.single-blog{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+.single-blog .card-title{
+    font-weight: 600;
+}
+
+        /* Quote area style  */
+
+.quote{
+    background: #6cae22;
+    color: #fff;
+}
+.single-quote p{
+    font-size: 25px;
+}
+.single-quote i{
+    font-size: 50px;
+    padding: 0 15px;
+}
+
+        /* contact area style  */
+
+.left-contact{
+    background: #6cae22;
+    padding: 60px;
+    color: #fff;
+}
+.left-contact h3{
+    margin-bottom: 20px;
+}
+label{
+    font-size: 28px;
+    margin: 10px 0;
+}
+.contact .btn{
+    background: #6cae22;
+    color: #fff;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+        /* Footer style start here  */
+
+footer{
+    background: #6cae22;
+    padding: 35px 0;
+    color: #fff;
+}
+footer .socials i{
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+
+                /* footer end here  */
+
+
+            /* Responsive Web Design Section  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navber-nav{
+        text-align: center;
+    }
+    .navbar-collapse{
+        background: #fff;
+    }
+    .navbar-collapse .nav-item .nav-link{
+        color: #000;
+    }
+    .carousel-caption{
+        bottom: 150px;
+    }
+    .carousel-caption h5{
+        font-size: 45px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 18px;
+    }
+    .bg-1, .bg-2, .bg-3{
+        background-position: 36%;
+    }
+    .ab-img img{
+         width: 100%;
+    }
+    .about-text{
+        margin-top: 30px;
+    }
+    .single-service, .single-trainer, .single-blog, .single-contact, .single-number{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse{
+        background: #fff;
+    }
+    .navbar-collapse .nav-item .nav-link{
+        color: #000;
+    }
+    .carousel-caption{
+        bottom: 150px;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .bg-1, .bg-2, .bg-3{
+        background-position: 36%;
+    }
+    .section-header h2{
+        font-size: 25px;
+    }
+    .ab-img img{
+         width: 100%;
+    }
+    .about-text{
+        margin-top: 30px;
+    }
+    .single-service, .single-trainer, .single-blog, .single-contact, .single-number{
+        margin-bottom: 30px;
+    }
+    .single-quote p{
+        font-size: 18px;
+    }
+    .single-quote i{
+        font-size: 25px;
+        padding: 0 5px;
+    }
+    .testimonial .carousel-caption{
+        bottom: -30px;
+    }
+    .left-contact{
+        text-align: center;
+    }
+    .contact label{
+        font-style: 16px;
+        font-weight: 600;
+    }
+}
